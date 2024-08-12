@@ -1,0 +1,34 @@
+.p-carousel-next svg, .p-carousel-prev svg{
+    width: 45px;
+    height: 45px;
+}
+
+.p-carousel-item-end div {
+    border: none;
+}
+
+@keyframes text-animation {
+    from{
+        height: 0px;
+        display: none;
+    }
+    to{
+        height: auto;
+        display: block;
+    }
+}
+
+.animation{
+    animation: text-animation 1s;
+}
+
+/* .anim-title{
+    opacity: 0;
+    height: 0px;
+    transition: all 0.5s linear;
+}
+
+.anim-title:hover{
+    height: 100px;
+    opacity: 1;   
+} */
